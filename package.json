@@ -1,0 +1,25 @@
+{
+  "name": "lab3-nodejs-football",
+  "version": "1.0.0",
+  "description": "CLI-програма для роботи з даними футбольного турніру",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorKwirinus/lab3-nodejs-football.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ProfessorKwirinus/lab3-nodejs-football/issues"
+  },
+  "homepage": "https://github.com/ProfessorKwirinus/lab3-nodejs-football#readme",
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
