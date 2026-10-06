@@ -14,6 +14,11 @@ program
   )
   .helpOption('-h, --help', 'показати довідку');
 
+program.addHelpCommand(
+  'help [command]',
+  'показати довідку для команди'
+);
+
 function printError(message) {
   console.error(`Помилка: ${message}`);
   process.exitCode = 1;
@@ -385,11 +390,35 @@ program
     });
   });
 
+function localizeHelpText(text) {
+  return text
+    .replace(/^Usage:/gm, 'Використання:')
+    .replace(/^Arguments:/gm, 'Аргументи:')
+    .replace(/^Options:/gm, 'Опції:')
+    .replace(/^Commands:/gm, 'Команди:');
+}
+
 program.exitOverride();
 
 program.configureOutput({
+  writeOut: (text) =>
+    process.stdout.write(localizeHelpText(text)),
+  writeErr: (text) =>
+    process.stderr.write(localizeHelpText(text)),
   outputError: () => {}
 });
+
+for (const command of program.commands) {
+  command.exitOverride();
+
+  command.configureOutput({
+    writeOut: (text) =>
+      process.stdout.write(localizeHelpText(text)),
+    writeErr: (text) =>
+      process.stderr.write(localizeHelpText(text)),
+    outputError: () => {}
+  });
+}
 
 function translateCommanderError(error) {
   const argumentMatch = error.message.match(/'([^']+)'/);
