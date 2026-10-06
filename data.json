@@ -1,0 +1,193 @@
+{
+  "tournament": {
+    "name": "Українська Прем'єр-ліга",
+    "season": "2026/2027",
+    "country": "Україна"
+  },
+  "teams": [
+    {
+      "name": "Динамо Київ",
+      "city": "Київ",
+      "players": [
+        {
+          "fullName": "Томаш Кендзьора",
+          "number": 94
+        },
+        {
+          "fullName": "Матвій Пономаренко",
+          "number": 11
+        },
+        {
+          "fullName": "Володимир Бражко",
+          "number": 6
+        },
+        {
+          "fullName": "Владислав Дубінчак",
+          "number": 44
+        },
+        {
+          "fullName": "Андрій Ярмоленко",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "name": "ЛНЗ",
+      "city": "Черкаси",
+      "players": [
+        {
+          "fullName": "Денис Дайко",
+          "number": 4
+        },
+        {
+          "fullName": "Ндіага",
+          "number": 37
+        }
+      ]
+    },
+    {
+      "name": "Колос",
+      "city": "Ковалівка",
+      "players": [
+        {
+          "fullName": "Олександр Демченко",
+          "number": 7
+        },
+        {
+          "fullName": "Теллес",
+          "number": 55
+        },
+        {
+          "fullName": "Владислав Салабай",
+          "number": 17
+        },
+        {
+          "fullName": "Роман Гончаренко",
+          "number": 33
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "round": 5,
+      "date": "2026-09-06",
+      "stadium": "Стадіон «Динамо» імені Валерія Лобановського",
+      "homeTeam": "Динамо Київ",
+      "awayTeam": "ЛНЗ",
+      "finished": true,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "events": [
+        {
+          "type": "жовта картка",
+          "minute": 15,
+          "addedMinute": null,
+          "player": "Томаш Кендзьора",
+          "team": "Динамо Київ"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 45,
+          "addedMinute": 1,
+          "player": "Денис Дайко",
+          "team": "ЛНЗ"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 78,
+          "addedMinute": null,
+          "player": "Ндіага",
+          "team": "ЛНЗ"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "date": "2026-08-16",
+      "stadium": "Стадіон «Динамо» імені Валерія Лобановського",
+      "homeTeam": "Динамо Київ",
+      "awayTeam": "Колос",
+      "finished": true,
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "events": [
+        {
+          "type": "гол",
+          "minute": 19,
+          "addedMinute": null,
+          "player": "Матвій Пономаренко",
+          "team": "Динамо Київ"
+        },
+        {
+          "type": "гол",
+          "minute": 21,
+          "addedMinute": null,
+          "player": "Олександр Демченко",
+          "team": "Колос"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 25,
+          "addedMinute": null,
+          "player": "Теллес",
+          "team": "Колос"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 45,
+          "addedMinute": 1,
+          "player": "Владислав Дубінчак",
+          "team": "Динамо Київ"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 56,
+          "addedMinute": null,
+          "player": "Володимир Бражко",
+          "team": "Динамо Київ"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 63,
+          "addedMinute": null,
+          "player": "Владислав Салабай",
+          "team": "Колос"
+        },
+        {
+          "type": "гол",
+          "minute": 73,
+          "addedMinute": null,
+          "player": "Володимир Бражко",
+          "team": "Динамо Київ"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 84,
+          "addedMinute": null,
+          "player": "Роман Гончаренко",
+          "team": "Колос"
+        },
+        {
+          "type": "червона картка",
+          "minute": 85,
+          "addedMinute": null,
+          "player": "Володимир Бражко",
+          "team": "Динамо Київ",
+          "reason": "друга жовта картка"
+        },
+        {
+          "type": "жовта картка",
+          "minute": 88,
+          "addedMinute": null,
+          "player": "Андрій Ярмоленко",
+          "team": "Динамо Київ"
+        }
+      ]
+    }
+  ]
+}
